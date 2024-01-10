@@ -8,3 +8,5 @@ app.set(express.urlencoded({extended : false}))
 app.use('/', function(req,res){
     res.render('main.ejs')
 })
+
+app.listen(3000)
