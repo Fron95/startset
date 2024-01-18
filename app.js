@@ -11,4 +11,8 @@ app.use("/", function (req, res) {
   res.render("main");
 });
 
+app.use("/other", function (req, res) {
+  res.render("other");
+});
+
 app.listen(8000);
